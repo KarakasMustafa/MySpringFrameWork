@@ -1,9 +1,9 @@
 public class Mentor {
 
     FullTimeMentor fullTimeMentor;
-    partTimeMentor partTimeMentor;
+    PartTimeMentor partTimeMentor;
 
-    public Mentor(FullTimeMentor fullTimeMentor, partTimeMentor partTimeMentor) {
+    public Mentor(FullTimeMentor fullTimeMentor, PartTimeMentor partTimeMentor) {
         this.fullTimeMentor = fullTimeMentor;
         this.partTimeMentor = partTimeMentor;
     }
