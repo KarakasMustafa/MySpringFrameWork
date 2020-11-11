@@ -35,8 +35,35 @@ public class HomeController {
         return "home";
     }
 
-    @GetMapping("/home{name}")
-    public String pathVariableExample(@PathVariable("name") String name){
+    @GetMapping("/home/{name}/{email}")
+    public String pathVariableEx(@PathVariable("name") String name,@PathVariable("email") String email){
+        System.out.println("name is: " + name);
+        System.out.println("email is: " + email);
+        return "home";
+    }
+
+    @GetMapping("/home/{name}")
+    public String pathVariableEx2(@PathVariable("name") String name){
+        System.out.println("name is: " + name);
+        return "home";
+    }
+
+    @GetMapping("home/test")
+    public String requestParamEx(@RequestParam("test") String course){
+        System.out.println("name is: " +course);
+        return "home";
+    }
+
+    @GetMapping("home/course")
+    public String requestParamEx2(@RequestParam(value = "course",required = false) String course ){
+        System.out.println("name is: " +course);
+        return "home";
+    }
+
+    @GetMapping(value = "/course")
+    public String requestParam2(@RequestParam(value = "name",required = false,defaultValue = "Mustafa") String name){
+
+        System.out.println("name is: " + name);
         return "home";
     }
 
