@@ -7,13 +7,10 @@ import com.mustafa.interfaces.ExtraSessions;
 public class Java implements Course {
     OfficeSessions officeHours;
 
-    ExtraSessions extraSessions;
 
     public Java(OfficeSessions officeHours) {
         this.officeHours = officeHours;
     }
-
-
 
 
     @Override
