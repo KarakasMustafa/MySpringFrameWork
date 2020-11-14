@@ -49,8 +49,8 @@ public class HomeController {
     }
 
     @GetMapping("home/test")
-    public String requestParamEx(@RequestParam("test") String course){
-        System.out.println("name is: " +course);
+    public String requestParamEx(@RequestParam("test") String test){
+        System.out.println("name is: " +test);
         return "home";
     }
 
