@@ -22,5 +22,9 @@
 <a th:href="@{https://www.google.com}">MyApp</a>
 <a th:href="@{/student/register}">Register</a>
 
+<!--Adding Parameters to Link-->
+<a th:href="@{/student/welcome(id=3)}">Link</a>
+<a th:href="@{/student/welcome(id=${student.id})}">Link2</a>
+
 </body>
 </html>
