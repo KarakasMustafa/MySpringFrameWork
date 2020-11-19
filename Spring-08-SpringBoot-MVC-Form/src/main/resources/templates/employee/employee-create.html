@@ -54,9 +54,9 @@
                     <div class="form-group col-md-6">
                         <label for="inputPassword">Password</label>
                         <input type="password" class="form-control" id="inputPassword" placeholder="Password" th:field="*{password}" required
-                        pattern="">
+                               pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{4,}">
                         <div class="invalid-feedback">
-                            Please enter your password.
+                            Must contain at least one number and one uppercase and lowercase letter, and at least 4 or more characters
                         </div>
                     </div>
                 </div>
