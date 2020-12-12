@@ -45,6 +45,19 @@ public class Student {
     @Enumerated(EnumType.STRING) // if we dont put this annotation, it takes gender as integer
     private Gender gender;
 
-
-
+    public Student(String firstName, String lastName, String email, String city, Date birthDate,
+                   Date birthTime, Date birthDateTime, LocalDate localDate, LocalTime localTime,
+                   LocalDateTime localDateTime, Gender gender) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.city = city;
+        this.birthDate = birthDate;
+        this.birthTime = birthTime;
+        this.birthDateTime = birthDateTime;
+        this.localDate = localDate;
+        this.localTime = localTime;
+        this.localDateTime = localDateTime;
+        this.gender = gender;
+    }
 }
