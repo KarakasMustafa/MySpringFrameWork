@@ -1,6 +1,8 @@
 package com.mustafa.entity;
 
 
+import com.mustafa.enums.Gender;
+
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -40,6 +42,8 @@ public class Student {
     private LocalDateTime localDateTime;
 
 
+    @Enumerated(EnumType.STRING) // if we dont put this annotation, it takes gender as integer
+    private Gender gender;
 
 
 
