@@ -21,6 +21,7 @@
         <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-05-JavaAnnotations-Qualifier" />
       </profile>
@@ -42,6 +43,7 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" target="11" />
       <module name="Spring-08-SpringBoot-MVC-Form" target="12" />
       <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" target="11" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
       <module name="Test" target="1.5" />
     </bytecodeTargetLevel>
@@ -53,6 +55,7 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Form" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" options="-parameters" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
     </option>
   </component>
