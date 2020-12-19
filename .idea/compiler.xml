@@ -14,6 +14,7 @@
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-09-ORM-Mapping-ManyToOne" />
         <module name="Spring-07-SpringBoot-IoC-DI-Lab" />
+        <module name="Spring-09-ORM-OneToMany" />
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
@@ -46,6 +47,7 @@
       <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" target="11" />
       <module name="Spring-09-ORM-Mapping-ManyToOne" target="11" />
       <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
+      <module name="Spring-09-ORM-OneToMany" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
       <module name="Test" target="1.5" />
     </bytecodeTargetLevel>
@@ -59,6 +61,7 @@
       <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-ManyToOne" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
+      <module name="Spring-09-ORM-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
     </option>
   </component>
