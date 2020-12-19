@@ -12,7 +12,6 @@ public class Person {
     private String firstName;
     private String lastName;
 
-    @OneToMany
+    @OneToMany(mappedBy = "person")
     private List<Address> addresses;
-
 }
