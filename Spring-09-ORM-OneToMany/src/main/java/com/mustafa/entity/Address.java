@@ -22,8 +22,8 @@ public class Address {
 //    private Person person;
 
 
-//    public Address(String street, String zipCode) {
-//        this.street = street;
-//        this.zipCode = zipCode;
-//    }
+    public Address(String street, String zipCode) {
+        this.street = street;
+        this.zipCode = zipCode;
+    }
 }
