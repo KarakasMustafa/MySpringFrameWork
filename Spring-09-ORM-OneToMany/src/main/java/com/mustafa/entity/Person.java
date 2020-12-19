@@ -1,9 +1,16 @@
 package com.mustafa.entity;
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Getter
+@Setter
+@NoArgsConstructor
 public class Person {
 
     @Id
@@ -12,6 +19,10 @@ public class Person {
     private String firstName;
     private String lastName;
 
-    @OneToMany(mappedBy = "person")
+//    @OneToMany(mappedBy = "person")
+//    private List<Address> addresses;
+
+    @OneToMany
+    @JoinColumn(name = "person_id")
     private List<Address> addresses;
 }
